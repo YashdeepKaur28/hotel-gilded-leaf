@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Gilded Leaf | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- [BLOCK: NAVIGATION STRIP] -->
+    <header class="header-strip">
+        <nav class="navbar">
+            <div class="logo-brand"><h2>Gilded<span>Leaf</span></h2></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Culinary Menu</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="booking.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="login.html" class="nav-auth-btn login active">Login</a></li>
+                <li><a href="register.html" class="nav-auth-btn register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- [BLOCK: LOGIN FORM] -->
+    <main class="main-wrapper">
+        <div class="form-container-box">
+            <h2>User Login</h2>
+
+            <form action="#">
+
+                <!-- Email -->
+                <div class="input-field-group">
+                    <label for="login-email">Email Address</label>
+                    <input type="email" id="login-email" required placeholder="Enter your email">
+                </div>
+
+                <!-- Password -->
+                <div class="input-field-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required placeholder="Enter your password">
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="submit-form-btn">Login</button>
+
+                <!-- Footer Link -->
+                <p class="form-footer-link">
+                    New user? <a href="register.html">Create an account</a>
+                </p>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

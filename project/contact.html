@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Gilded Leaf | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- [BLOCK: NAVIGATION STRIP] -->
+    <header class="header-strip">
+        <nav class="navbar">
+            <div class="logo-brand"><h2>Gilded<span>Leaf</span></h2></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Culinary Menu</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="booking.html">Reservations</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="login.html" class="nav-auth-btn login">Login</a></li>
+                <li><a href="register.html" class="nav-auth-btn register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- [BLOCK: CONTACT FORM] -->
+    <main class="main-wrapper">
+        <div class="form-container-box">
+            <h2>Contact Us</h2>
+
+            <form action="#">
+
+                <!-- Name -->
+                <div class="input-field-group">
+                    <label for="contact-name">Full Name</label>
+                    <input type="text" id="contact-name" required placeholder="Enter your name">
+                </div>
+
+                <!-- Email -->
+                <div class="input-field-group">
+                    <label for="contact-email">Email Address</label>
+                    <input type="email" id="contact-email" required placeholder="example@email.com">
+                </div>
+
+                <!-- Subject -->
+                <div class="input-field-group">
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contact-subject" placeholder="Booking inquiry, feedback...">
+                </div>
+
+                <!-- Message -->
+                <div class="input-field-group">
+                    <label for="contact-message">Your Message</label>
+                    <textarea id="contact-message" rows="4" required placeholder="Write your message here..."></textarea>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="submit-form-btn">Send Message</button>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
